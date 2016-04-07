@@ -3,16 +3,9 @@
 This tutorial was prepared by **[RailsGirls KL](https://www.facebook.com/railsgirlskl 'RailsGirls KL')** for **[GDG DevCamp Penang 2016](https://www.facebook.com/events/1093251227393698 'GDG DevCamp Penang')**.
 
 #### Resources:
-- Link to the tutorial:
-- Link to the required files:
-- Link to the sample resume page:
-- Link to the slides:
-
-#### Contributors:
-- Jeannette
-- Jo-Ee
-- Shaii
-- Faezrah
+- [Google Slides](https://goo.gl/kfCWko)
+- [One-Page Resume Tutorial](https://github.com/railsgirlskl/gdg-devcamp/blob/master/tutorial.md)
+- [Sample Resume Page](https://goo.gl/kfCWko)
 
 #### Credits:
 - [RailsGirls KL](http://facebook.com/railsgirlskl/)
