@@ -2,60 +2,82 @@
 <html>
   <head>
     <title>Johan's Resume</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <link rel='stylesheet' type='text/css' href='style.css'>
+    <script src='jquery-1.12.0.min.js'></script>
   </head>
   <body>
     <div id='container'>
       <section class='personal-details'>
         <section class='photo'>
-          <img src='images/no_image.png' class='display'>
+          <img src='images/ronaldo.jpg' class='display'>
         </section>
         <section class='content'>
-          <h2>Johan bin Dolah</h2>
-          <h2>Software Developer</h2>
-          <ul>
-            <li>johan@google.com</li>
-            <li>+6 016 585 0000</li>
-          </ul>
+          <h2>Johan bin Dolah <br/>
+          <span>Software Developer</span>
+          </h2>
+          <h5>
+            <span>johan@google.com</span>
+            <span>+6 016 585 0000</span>
+          </h5>
         </section>
       </section>
+      <hr class='right-gradient'>
 
       <section class='personal-summary'>
-        <h3>Personal Summary</h3>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-        <hr>
+        <h4>Personal Summary</h4>
+        Passionate, responsible and committed engineer, with a get-it-done, on-time spirit, and almost a decade of experience designing, implementing and adapting technically sophisticated online web applications.
+        <hr class='hr-line'>
       </section>
 
       <section class='work-experience'>
-        <h3>Work Experience</h3>
-        <p>Google Inc</p>
-        <p>Software Engineer</p>
-        <p>Jan 2015 - current </p>
-        <ul>
-          <li>List one</li>
-          <li>List two</li>
-          <li>List three</li>
-        </ul>
-
-        <p>AirBnb Inc</p>
-        <p>Software Engineer</p>
-        <p>Jan 2014 - Dec 2015</p>
-        <ul>
-          <li>List one</li>
-          <li>List two</li>
-          <li>List three</li>
-        </ul>
-        <hr>
+        <h4>Work Experience</h4>
+        <table class='work-details'>
+          <tr>
+            <td class='work-year'>Jan 2016 - current </td>
+            <td>
+              Senior Software Engineer<br/>
+              Google Inc
+            </td>
+          </tr>
+          <tr>
+            <td class='work-year'>Jan 2012 - Dec 2015</td>
+            <td>
+              Ruby on Rails Engineer<br/>
+              Airbnb, Inc
+            </td>
+          </tr>
+          <tr>
+            <td class='work-year'>July 2009 - Dec 2011</td>
+            <td>
+              Junior Ruby on Rails Engineer<br/>
+              Twitter, Inc
+            </td>
+          </tr>
+        </table>
+        <hr class='hr-line'>
       </section>
 
       <section class='education'>
-        <h3>Education</h3>
-        <section class='edu-item'>
-          <p>University of Oxford, England</p>
-          <p>LL.B Law</p>
-          <p>2007 - 2009</p>
-        </section>
-      <section>
+        <h4>Education</h4>
+        <table class='edu-details'>
+          <tr>
+            <td class='edu-year'>Sept 2006 - June 2009</td>
+            <td class='edu-info'>
+              Software Engineering<br/>
+              Stanford University<br/>
+            </td>
+          </tr>
+          <tr>
+            <td class='edu-year'>Sept 2004 - June 2006</td>
+            <td class='edu-info'>
+              A-Level<br/>
+              Kolej Damansara Utama<br/>
+              Computer Science, A; Law, A; Politics, A;
+            </td>
+          </tr>
+        </table>
+      </section>
     </div>
   </body>
 </html>

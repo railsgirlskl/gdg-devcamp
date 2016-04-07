@@ -1,18 +1,26 @@
 body {
   padding: 0;
   margin: 0;
-  background: #F2F2F2;
   font-family: 'Proxima Nova', sans-serif;
   font-size: 18px;
+  background-image: url(../demo-page/images/bg.jpg);
 }
 
 #container {
   min-width: 600px;
+  background: #ffffff;
+  border: 2px solid #00004d;
+  margin: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
+
+/* PERSONAL DETAILS */
+/* ----------------------------------------- */
 
 .personal-details {
   height: 200px;
-  margin: 25px 50px 25px 50px;
+  margin-top: 25px;
   padding: 5px;
 }
 
@@ -39,21 +47,65 @@ body {
   padding: 0;
 }
 
-.personal-summary {
-  margin: 25px 50px 25px 50px;
-  padding: 5px;
+hr.right-gradient {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 153, 0.75), rgba(0, 0, 0, 0));
 }
+
+/* PERSONAL SUMMARY */
+/* ----------------------------------------- */
+
+.personal-summary {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h4 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #1a1aff;
+}
+
+hr.hr-line {
+  height: 6px;
+  background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+  border: 0;
+  margin-top: 25px;
+}
+
+/* WORK EXPERIENCE */
+/* ----------------------------------------- */
 
 .work-experience {
-  margin: 25px 50px 25px 50px;
-  padding: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
+
+.work-details {
+  width: 100%;
+}
+
+.work-year {
+  width: 25%;
+}
+
+/* EDUCATION */
+/* ----------------------------------------- */
 
 .education {
-  margin: 25px 50px 25px 50px;
-  padding: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
-.edu-item {
-  padding-left: 15px;
+.edu-details {
+  width: 100%;
+}
+
+.edu-year {
+  width: 25%;
+}
+
+.edu-info {
+  padding-bottom: 10px;
 }
