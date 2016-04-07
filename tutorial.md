@@ -1,6 +1,6 @@
 #### Introduction
 
-Download `exercise` folder from:
+Download `exercise` folder from: https://github.com/railsgirlskl/gdg-devcamp/tree/master/exercise
 Open folder in `SublimeText`.
 
 #### HTML
@@ -176,7 +176,7 @@ Dont forget to close the container section tag, so add `</div>` before `</body>`
 
 Save and refresh your browser to see changes.
 
-**Mentor: Explain the difference between id and class.**
+**Mentor: Explain the difference between 'ID' and 'Class'.**
 
 Now, after this line:
 
@@ -343,8 +343,94 @@ Then, open `index.html`, make sure your work-experience section code looks like 
 </section>
 ```
 
-If everything looks right, then you should have your resume looks like this:
+If everything looks right, then you should have your resume looks something like this:
 
 <img src='images/html5.png' style='border:1px solid black'>
 
+Let's take a break before we continue. :smile:
+
 At this point, you deserve :coffee: :cake: !
+
+**Mentor: Talk a little about Javascript.**
+
+#### Javacript:
+
+In `index.html`, add this code before `</head>`.
+
+```
+<script type = "text/javascript" src = "http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+```
+
+Still in `index.html`, inside the body tag, edit the `<img>` tag and add `onclick="alert('Hello! My name is Johan.')"`. 
+
+Your `<img>` tag will now look like this:
+
+```
+<img src='images/johan.jpg' class='display' onclick="alert('Hello. My name is Johan!')">
+```
+
+ > Tip: Single quotes can be used when two sets of double quotes are used close to each other to help avoid confusion.
+
+Save your change and refresh the browser. Click on your picture, and you will get a prompt like so:
+
+<img src='images/js1.png' style='border:1px solid black'>
+
+Now, before we continue, let's remove the onclick code from `<img>` as we don't need it anymore.
+
+Create a new file called `script.js`. All your script code will be written inside `script.js`.
+
+In `index.html`, and just before the `</head>`, add this line:
+
+```
+<script type='text/javascript' src='script.js'></script>
+```
+
+Add this code:
+
+```
+$(document).ready(function() {
+
+});
+```
+
+The `ready()` function is always used first to ensure the script doesn't run until the page is ready.
+
+Let's try to make the profile image move when the image is clicked. To do that, we need to use the `effect()` function in the jQuery library.
+
+Inside the ready function, write the code below:
+
+```
+$('.display').click(function(e){
+	$(this).effect('shake');
+	e.stopPropagation();
+});
+```
+
+> Tip:  jQuery is a JavaScript library that makes it easier to use JavaScript.
+A library in programming is a set of functions or functionality that lets us take a shortcut when writing our own code.
+
+For shake effect to work, open `index.html` and replace:
+
+```
+<img src='images/johan.png' class='display'>
+```
+
+With:
+
+```
+<img src='images/johan.png' class='display' id='profilePhoto'>
+```
+
+Save your file and refresh the browser. Go and click your profile picture:
+
+You can always improve your code and change the shake effect to suit you:
+
+Head over to this page to learn more about `shake` effect in jQuery: https://api.jqueryui.com/shake-effect/
+
+### What Next?
+- Improve your resume layout
+- Add social buttons
+
+### Additional Guides
+- [Add design using Bootstrap](http://www.w3schools.com/bootstrap/bootstrap_get_started.asp)
