@@ -5,7 +5,7 @@ This tutorial was prepared by **[RailsGirls KL](https://www.facebook.com/railsgi
 #### Resources:
 - [Google Slides](https://goo.gl/kfCWko)
 - [One-Page Resume Tutorial](https://github.com/railsgirlskl/gdg-devcamp/blob/master/tutorial.md)
-- [Sample Resume Page](https://goo.gl/kfCWko)
+- [Sample Resume Page](https://raw.githubusercontent.com/railsgirlskl/gdg-devcamp/master/images/resume.png)
 
 #### Credits:
 - [RailsGirls KL](http://facebook.com/railsgirlskl/)
