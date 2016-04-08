@@ -1,7 +1,8 @@
 #### Introduction
 
-Download `exercise` folder from: https://github.com/railsgirlskl/gdg-devcamp/tree/master/exercise
-Open folder in `SublimeText`.
+Download `gdg-devcamp-exercise` folder from: https://github.com/railsgirlskl/gdg-devcamp-exercise
+
+Open `gdg-devcamp-exercise` folder in `SublimeText`.
 
 #### HTML
 
@@ -27,6 +28,8 @@ Open `index.html` with the browser of your choice. (We prefer Chrome :laughing:)
 It should look something like this:
 
 <img src='images/html1.png' style='border:1px solid black'>
+
+**Mentor: Talk about HTML heading and paragraph tags.**
 
 Below `<body>`, replace:
 
@@ -126,6 +129,8 @@ Add:
 <link rel='stylesheet' type='text/css' href='style.css'>
 ```
 
+The `<link>` tag defines a link between a document and an external resource. In this case, we are telling the browser that we want to link to an external style sheet.
+
 Open `style.css`, write the code below:
 
 ```
@@ -150,6 +155,8 @@ What if you want to add a background image to your page? Easy! In `style.css`, i
 ```
 background-image: url(images/bg.jpg);
 ```
+
+You can also change the background image to your liking.
 
 Now, let's add a container to allow for more sophisticated CSS styling.
 
@@ -269,7 +276,7 @@ This will give our `personal-summary` section a margin left and right.
 
 Now, how about we give our sub-heading and horizontal line some styling as well?
 
-Add these code in `style.css`:
+Put the following in `style.css`:
 
 ```
 h4 {
